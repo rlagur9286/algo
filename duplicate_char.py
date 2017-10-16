@@ -3,7 +3,7 @@
 # 제한 사항: list나 set 같은 자료구조 사용 불가
 # 시간 복잡도: O(N)
 # 공간 복잡도: O(N)
-
+# 참조: https://www.youtube.com/watch?v=piDwgBqmqKM&list=PLVNY1HnUlO24RlncfRjfoZHnD0YWVsvhq
 
 def check_duplicated_without_data_structure(input_string):
     if len(input_string) > 256:
