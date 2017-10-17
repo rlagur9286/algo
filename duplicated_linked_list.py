@@ -15,6 +15,9 @@ class LinkedList:
     def __init__(self, item):
         self.head = Node(item)
 
+    def get_head(self):
+        return self.head
+
     def add(self, item):
         cur = self.head
         while cur.next is not None:
