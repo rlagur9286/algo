@@ -1,14 +1,13 @@
 # ---------------------------------------------------------
-# Palindrome in Linkedlist (링크드리스트에서 회문 구하기)
+# Reverse Linked List
 # 참조: https://www.youtube.com/watch?v=eU0fIKv3R-c&list=PLVNY1HnUlO24RlncfRjfoZHnD0YWVsvhq&index=11
 
 from duplicated_linked_list import LinkedList
 
 
-def check_palindrome(linked_list):
+def reverse_linked_list(linked_list):
     cur = linked_list.get_head()
     prev = None
-    next = None
 
     while cur is not None:
         next = cur.next
@@ -24,5 +23,5 @@ if __name__ == '__main__':
     ll.add(4)
     ll.add(5)
 
-    check_palindrome(ll)
+    reverse_linked_list(ll)
     ll.show()
